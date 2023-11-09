@@ -7,8 +7,7 @@
       >
         <v-tab :value="1">Активные</v-tab>
         <v-tab :value="2">Архив</v-tab>
-      </v-tabs>
-  
+      </v-tabs><br>
       <v-window v-model="tab">
           <v-window-item value="1">
               <v-row>

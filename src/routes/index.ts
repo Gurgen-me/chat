@@ -3,27 +3,27 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
     {
         path: '/',
-        name: 'Home',
+        name: 'ГЛАВНАЯ',
         component: () => import('@/views/HomeView.vue')
     },
     {
         path: '/chat',
-        name: 'Chat',
+        name: 'ЧАТ',
         component: () => import('@/views/ChatView.vue')
     },
     {
         path: '/login',
-        name: 'Login',
+        name: 'ВХОД',
         component: () => import('@/views/LoginView.vue')
     },
     {
         path: '/profile',
-        name: 'Profile',
+        name: 'ПРОФИЛЬ',
         component: () => import('@/views/ProfileView.vue')
     },
     {
         path: '/help',
-        name: 'Help',
+        name: 'ПОМОЩЬ',
         component: () => import('@/views/HelpView.vue')
     },
     { path: '/:pathMatch(.*)*',

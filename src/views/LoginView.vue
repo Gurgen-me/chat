@@ -26,6 +26,28 @@ export default defineComponent({
         return 'You must enter a valid value.'
       },
     ],
+    users: [
+      {
+        name: "Gurgen",
+        surname: "Melkonyan",
+        gmail: "gurgenmelqonyan601@gmail.com",
+        login: "gurgenmelqonyan601@gmail.com",
+        pass: "123456",
+        role: "Admin",
+      },
+      {
+        name: "Dima",
+        surname: "Bogdanov",
+        gmail: "dherherherth@gmail.com",
+        role: "User",
+      },
+      {
+        name: "Gurgen",
+        surname: "Melkonyan",
+        gmail: "gurgenmelqonyan601@gmail.com",
+        role: "Admin",
+      },
+    ]
   }),
   methods: {
     enterAsAdmin: function () {

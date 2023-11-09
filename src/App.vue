@@ -7,10 +7,10 @@
       <v-navigation-drawer v-model="drawer"
   
   >
-    <v-list>
+    <v-list v-for="user in users">
       <v-list-item
         prepend-avatar="{{ img }}"
-        title="{{name}}"
+        title="{{this.name}}"
         subtitle="{{ gmail }}"
       ></v-list-item>
     </v-list>
@@ -30,7 +30,7 @@
       <v-app-bar>
         <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-        <v-app-bar-title>{{this.$route.name}}</v-app-bar-title>
+        <v-app-bar-title align="center">{{this.$route.name}}</v-app-bar-title>
       </v-app-bar>
 
       <v-main>
