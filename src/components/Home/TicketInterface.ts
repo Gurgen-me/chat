@@ -1,0 +1,11 @@
+interface Ticket {
+    id: number,
+    summary: string,
+    content: string,
+    priority: string,
+    status: string,
+    create_date: string,
+    update_date: string,
+}
+
+export default Ticket;
